@@ -52,16 +52,16 @@
 }
 .single-team .team-content .team-info h3{
     text-transform: uppercase;
-    color: #750a0a;
+    color: #151999;
     font-size: 16px;
     margin: 5px;
 }
 .single-team:hover .team-info h3{
-    color: #b52121;
+    color: #500a0a;
     font-weight: bold;
 }
 .team-info p{
-    margin-top: 15px;
+    margin-top: 0px;
     color: #0c0976;
 }
 .single-team-text p{
