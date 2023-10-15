@@ -26,7 +26,8 @@ header
     padding: 1px 2px;
     z-index: 99;
     background: transparent;
-    left: 300px;
+    left: 100px;
+    top: -50px;
 
 }
 .menu  header
@@ -125,6 +126,7 @@ ul li a:hover
 .home p{
     color: #f9f8f4;
     text-align: center;
+    
 }
 
 
@@ -432,16 +434,8 @@ span{
     width: 600px;
     margin-left: -100px;
 }
-
-
-
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: white;
+footer{
+    background-color: #d00d2d;
     text-align: center;
-    padding: 10px 0;
+    color: #f9f8f4;
 }
-
-
