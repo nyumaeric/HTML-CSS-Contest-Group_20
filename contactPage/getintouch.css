@@ -1,0 +1,53 @@
+.information{
+    background-color: #f9f8f4;
+    padding-left: 50px;
+}
+.contact{
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+}
+.contact h1{
+    color: var(--black, #000);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contact h2{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.14px;
+    width: 550px;
+    margin-top: -50px;
+
+}
+.info{
+    background-color: rgb(255, 255, 255);
+    height: 49px;
+    width: 550px;
+    padding-inline: 10px;
+    font-family: inherit;
+    border: solid 1px gray;
+    
+}
+.button{
+
+    background-color:#d00d2d;
+    color: white;
+    height: 49px;
+    width: 300px;
+    padding-inline: 10px;
+    font-family: inherit;
+    margin-inline-start: -5px;
+    border: solid 1px gray;
+    cursor: pointer;
+
+}
+span{
+    color: #d00d2d;
+    padding-left: 10px;
+}
