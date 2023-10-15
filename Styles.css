@@ -20,6 +20,10 @@ header
     z-index: 99;
     background: transparent;
     left: 250px;
+    /* position: fixed; */
+    /* top: 0;
+    width: 100%;
+    z-index: 100; */
 }
 .menu  header
 {
@@ -46,14 +50,14 @@ ul li
 
 ul li a{
     text-decoration: none;
-    color: white;
+    color: #002e6d;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
 ul li a:hover
 {
-    color:#002e6d;
+    color:#d00d2d;
 }
 
 .background
@@ -104,6 +108,9 @@ ul li a:hover
     align-items: center;
     height: 35px;
 }
+.logo{
+    padding-right: 100px;
+}
 .logo img{
     margin-top: -15px;
 }
@@ -143,7 +150,7 @@ ul li a:hover
 } */
 .login
 {
-    width: 450px;
+    width: 300px;
     position: relative;
     padding: 100px 30px;
     backdrop-filter: blur();
@@ -157,7 +164,7 @@ ul li a:hover
     background-color:#d00d2d;
     color: white;
     height: 49px;
-    width: 400px;
+    width: 300px;
     padding-inline: 10px;
     font-family: inherit;
     margin-inline-start: -5px;
@@ -196,6 +203,13 @@ ul li a:hover
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+  }
+  .check{
+    display: flex;
+    justify-content: space-between;
+  }
+  .check label{
+    color: #FFF;
   }
   
   .check a {
@@ -403,7 +417,14 @@ span{
     color: #d00d2d;
     padding-left: 10px;
 }
-
+.team-area{
+    border: solid red;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
 .team-area h2{
     color: #f9f8f4;
     font-size: 54px;
@@ -423,40 +444,53 @@ span{
 }
 
 .team-img{
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: auto;
 }
 
-.team-info{
-    padding: 5px 20px 5px 20px;
-    transition: all .5s;
+.team-info h3{
+    color: #f9f8f4;
+    font-size: 20px;
+    
 }
-.single-team:hover .team-content{
-    background: #000;
-}
-.single-team .team-content .team-info h3{
-    text-transform: uppercase;
-    color: #750a0a;
-    font-size: 16px;
-    margin: 5px;
-}
-.single-team:hover .team-info h3{
-    color: #b52121;
-    font-weight: bold;
-}
-.team-info p{
-    margin-top: 15px;
-    color: #0c0976;
-}
-.single-team-text p{
-    margin-top: 5px;
-}
-.team-text{
-    color: #120e0e;
-    padding: 0 10px 5px;
-}
+
 .image-size{
     width: 100%;
     height: 100%;
     background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.team-part1{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+
+}
+.single-team{
+    background-color: #002e6d;
+    box-shadow: #002e6d;
+    box-shadow: 5px 10px 10px 0px;
+    width: 300px;
+    border-radius: 10px ;
+    margin-inline: 20px;
+}
+.single-team h3{
+    font-size: 20px;
+    color: #f9f8f4;
+}
+.single-team h4{
+    font-size: 15px;
+    color: #f9f8f4;
+}
+.single-team h6{
+    font-size: 10px;
+    color: #f9f8f4;
+}
+.team-part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
 }
