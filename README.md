@@ -1,1 +1,1 @@
-# HTML-CSS-Contest-Group_20
+# HTML/CSS-Contest-Group_20
