@@ -10,6 +10,13 @@ body{
     
 }
 
+
+
+
+/* home section */
+
+
+
 header 
 {
     position: relative;
@@ -20,10 +27,7 @@ header
     z-index: 99;
     background: transparent;
     left: 250px;
-    /* position: fixed; */
-    /* top: 0;
-    width: 100%;
-    z-index: 100; */
+
 }
 .menu  header
 {
@@ -136,18 +140,6 @@ ul li a:hover
     color: #fff;
     margin-top: -20px;
 }
-/* .content .icon
-{
-    margin-top: 20px;
-    font-size: 1.5em;
-    display: flex;
-    justify-content: center;
-}
-.content .icon i 
-{
-    margin-left: 20px;
-    color: #fff;
-} */
 .login
 {
     width: 300px;
@@ -224,11 +216,19 @@ ul li a:hover
   .check a:hover {
     color: #FFF;
     text-decoration: underline;
+    
   }
+
+
+
+
+/* all event section */
+
+
 
   main{
     height: auto;
-    max-width: 100%      ;
+    max-width: 100%;
 }
 main div h1{
     color: #f9f8f4;
@@ -335,6 +335,16 @@ main div h1{
 .details{
     margin-top: -0px;
 }
+
+
+
+
+/* Get in touch section */
+
+
+
+
+
 .information{
     background-color: #f9f8f4;
     padding-left: 50px;
@@ -416,6 +426,17 @@ span{
     color: #d00d2d;
     padding-left: 10px;
 }
+
+
+
+
+
+/* about us section  */
+
+
+
+
+
 .team-area{
     width: auto;
     display: flex;
