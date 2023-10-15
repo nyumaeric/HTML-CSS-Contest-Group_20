@@ -114,9 +114,11 @@ ul li a:hover
 }
 .logo{
     padding-right: 100px;
+    margin-left: 50px;
 }
 .logo img{
-    margin-top: -15px;
+    margin-top: -22px;
+    margin-right: -30px;
 }
 .content h2
 {
