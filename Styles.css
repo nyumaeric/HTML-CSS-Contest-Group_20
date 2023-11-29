@@ -19,7 +19,7 @@ body{
 
 header 
 {
-    position: relative;
+    position: fixed;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +28,7 @@ header
     background: transparent;
     left: 100px;
     top: -50px;
+
 
 }
 .menu  header
@@ -126,7 +127,7 @@ ul li a:hover
 .home p{
     color: #f9f8f4;
     text-align: center;
-    
+
 }
 
 
