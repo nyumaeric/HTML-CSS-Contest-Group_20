@@ -9,7 +9,7 @@
           navbar.style.backgroundColor = '#002e6d';
           navbar.style.marginLeft = "-100px";
           navbar.style.height = "140px";
-          navbar.style.color = "white";
+          navbar.style.
           changeFontColor('white');
         } else {
           navbar.style.backgroundColor = 'transparent';

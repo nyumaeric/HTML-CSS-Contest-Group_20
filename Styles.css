@@ -21,8 +21,7 @@ header
 {
     position: fixed;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
+    
     padding: 1px 2px;
     z-index: 99;
     background: transparent;
@@ -61,7 +60,7 @@ ul li a{
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
-ul li a:hover
+#navbar-section a:hover
 {
     color:#d00d2d;
 }
