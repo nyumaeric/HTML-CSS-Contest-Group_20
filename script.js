@@ -36,21 +36,25 @@
 
     // Make the API request
     fetch(apiUrl)
-      .then(response => response.json())
-      .then(data => {
-        // Handle the API response and update the UI
-        const weatherInfo = document.getElementById('weather-info');
-        const temperatureCelsius = Math.ceil(kelvinToCelsius(data.main.temp));
-
-        weatherInfo.innerHTML = `
-          <p>Kigali</p>
-          <p>T: ${temperatureCelsius} &deg;C</p>
-          <p>W: ${data.weather[0].description}</p>
-         
-        `;
-      })
-      .catch(error => console.error('Error fetching weather data:', error));
-
+    .then(response => response.json())
+    .then(data => {
+      // Handle the API response and update the UI
+      const weatherInfo = document.getElementById('weather-info');
+      const temperatureCelsius = Math.ceil(kelvinToCelsius(data.main.temp));
+  
+      // Function to capitalize the first letter of each word
+      const capitalizeFirstLetter = (str) => {
+        return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+      };
+  
+      weatherInfo.innerHTML = `
+        <p>Kigali</p>
+        <p>T: ${temperatureCelsius} &deg;C</p>
+        <p>${capitalizeFirstLetter(data.weather[0].description)}</p>
+      `;
+    })
+    .catch(error => console.error('Error fetching weather data:', error));
+  
     // Function to convert temperature from Kelvin to Celsius
     function kelvinToCelsius(kelvin) {
       return kelvin - 273.15;

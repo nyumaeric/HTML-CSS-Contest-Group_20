@@ -140,6 +140,11 @@ ul li a{
     justify-content: space-between;
     padding-left: 50px;
 }
+#weather-info p{
+
+    padding-right: 0px;
+    width: 100px;
+}
 
 
 
