@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel='stylesheet' href='Styles.css'>
+    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
     <style>
@@ -52,6 +54,19 @@
     </style>
 </head>
 <body>
+    <header class="menu" id="navbar">
+        <ul id="navbar-section">
+            <a href="index.html"> <img src="img/logo.PNG" alt=""></a>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#Events-section" class="scroll-link">EVENTS</a></li>
+            <li><a href="#about-us">ABOUT</a></li>
+            <li><a href="#contact-us">CONTACT US</a></li> 
+            <div id="weather-info">
+                <!-- Weather information will be displayed here -->
+            </div>
+        </ul>
+    </header>
+    <main>
     <h1>Event Registration</h1>
     <p>Personal INFO</p>
     <form action="register_event.php" method="post">
@@ -70,5 +85,6 @@
 
         <button type="submit">Submit</button>
     </form>
+    </main>
 </body>
 </html>
