@@ -1,25 +1,72 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event Registration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap');
+
+
+        body {
+            background-color: #002e6d;
+            color: #ffffff; 
+            font-family: 'Nunito Sans', sans-serif;
+            padding-left: 20px;
+           
+        }
+
+        h1 {
+            color: #d00d2d;
+        }
+
+        form {
+            max-width: 400px;
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #ffffff; 
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #d00d2d;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #002e6d;
+        }
+    </style>
 </head>
 <body>
     <h1>Event Registration</h1>
     <p>Personal INFO</p>
     <form action="register_event.php" method="post">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" required>
         
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required>
 
-        <label for="event">Will you attend</label>
+        <label for="event">Will you attend?</label>
         <select id="event" name="event" required>
-            <option value="Professional Development">yes</option>
-            <option value="Campus Events">no</option>
-            <option value="Campus Events">maybe</option>
-        </select><br><br>
+            <option value="Professional Development">Yes</option>
+            <option value="Campus Events">No</option>
+            <option value="Campus Events">Maybe</option>
+        </select>
 
         <button type="submit">Submit</button>
     </form>
