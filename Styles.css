@@ -111,6 +111,7 @@ ul li a{
 
 .image-logo{
     margin-right: 15px; 
+    margin-bottom: 0px;
 }
 .connect{
     margin-left: -40px;
@@ -158,13 +159,16 @@ main{
     height: auto;
     max-width: 100%;
 }
-main div h1{
+.mission, main div h1{
     color: #f9f8f4;
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: center;
+}
+.missiondis{
+    font-weight: 100;
 }
 .filter{
     display: flex;
@@ -429,6 +433,7 @@ span{
     border-radius: 10px ;
     margin-inline: 20px;
     padding-left: 20px;
+    margin-bottom: 8px;
 }
 .single-team h3{
     font-size: 20px;
@@ -460,3 +465,113 @@ footer{
     text-align: center;
     color: #f9f8f4;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-logo img {
+    max-width: 90%;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+.contact-info, .email-info {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.contact-info img, .email-info img, .footer-social a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+.usw{
+font-size: small;
+font-display:initial;
+}
+span{
+    color: #fff;
+    font-display: initial;
+    font-size: small;
+}
+
+.footer-social h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 20px; 
+    margin-bottom: 20px;
+
+}
+
+.social-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.social-item a {
+    margin-right: 5px;
+}
+
+.social-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-item span {
+    color: #fff;
+    font-size: 1rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-logo img {
+    vertical-align: middle; 
+}
+
+.contact-info,
+.email-info,
+.footer-social,
+.footer-about {
+    margin-top: 10px; 
+}
+
+
