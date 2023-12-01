@@ -9,7 +9,7 @@
           navbar.style.backgroundColor = '#333';
           navbar.style.color = '#fff';
           navbar.style.backgroundColor = '#002e6d';
-          navbar.style.marginLeft = "-100px";
+          navbar.style.marginLeft = "0px";
           navbar.style.height = "140px";
           navbar.style.
           changeFontColor('white');
