@@ -2,65 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel='stylesheet' href='Styles.css'>
-    <script src="script.js"></script>
+    <script src="reg-script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap');
-
-
-        body {
-            background-color: #002e6d;
-            color: #ffffff; 
-            font-family: 'Nunito Sans', sans-serif;
-            padding-left: 20px;
-           
-        }
-
-        h1 {
-            color: #d00d2d;
-        }
-
-        form {
-            max-width: 400px;
-            
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #ffffff; 
-        }
-
-        input, select {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-        }
-
-        button {
-            background-color: #d00d2d;
-            color: #ffffff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #002e6d;
-        }
-    </style>
+    <link rel="icon" type="image/png" href="img/ALU-LOGO.jpeg">
+    <link rel="stylesheet" href="reg.styles.css">
 </head>
 <body>
     <header class="menu" id="navbar">
-        <ul id="navbar-section">
+        <ul>
             <a href="index.html"> <img src="img/logo.PNG" alt=""></a>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#Events-section" class="scroll-link">EVENTS</a></li>
-            <li><a href="#about-us">ABOUT</a></li>
-            <li><a href="#contact-us">CONTACT US</a></li> 
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html" class="scroll-link">EVENTS</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="index.html">CONTACT US</a></li> 
             <div id="weather-info">
                 <!-- Weather information will be displayed here -->
             </div>
@@ -86,5 +41,57 @@
         <button type="submit">Submit</button>
     </form>
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="image-logo">
+                    <img src="img/logo.PNG" alt="Logo">
+                </div>
+                <div class="contact-info">
+                    <img src="img/phone.png" alt="Phone Icon">
+                    <span>Contact: +250000000</span>
+                </div>
+                <div class="email-info">
+                    <img src="img/icons8-mail-100.png" alt="Email Icon">
+                    <span>Email: alumni@aluedu.com</span>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-social">
+                    <h2>Get To Us</h2>
+                    <div class="social-item">
+                        <a class="social-icons" href="" target="_blank">
+                            <img src="img/icons8-facebook-100.png" alt="Facebook">
+                            <span>Facebook</span>
+                        </a>
+                        
+                    </div>
+                    <div class="social-item">
+                        <a class="social-icons" href="" target="_blank">
+                            <img src="img/icons8-twitter-100.png" alt="Twitter">
+                            <span>Twitter</span>
+                        </a>
+                        
+                    </div>
+                    <div class="social-item">
+                        <a class="social-icons" href="" target="_blank">
+                            <img src="img/icons8-instagram-100.png" alt="Instagram">
+                            <span>Instagram</span>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-about">
+                    <h2>About Us</h2>
+                    <p class="usw">Our mission is to provide a space for alumni to network,<br> find professional development opportunities, and relive the campus Explore upcoming events, engage with fellow alumni, and stay connected with your alma mater.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&#169; 2023 AlumniConnect</p>
+        </div>
+    </footer>
 </body>
 </html>
