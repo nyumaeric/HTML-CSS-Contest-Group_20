@@ -55,6 +55,8 @@
     })
     .catch(error => console.error('Error fetching weather data:', error));
   
+
+    
     // Function to convert temperature from Kelvin to Celsius
     function kelvinToCelsius(kelvin) {
       return kelvin - 273.15;
