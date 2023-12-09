@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="reg-script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="icon" type="image/png" href="img/ALU-LOGO.jpeg">
+    <link rel="stylesheet" href="reg.styles.css">
+</head>
+<body>
+    <header class="menu" id="navbar">
+        <ul>
+            <a href="index.html"> <img src="img/logo.PNG" alt=""></a>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html" class="scroll-link">EVENTS</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="index.html">CONTACT US</a></li> 
+            <div id="weather-info">
+                <!-- Weather information will be displayed here -->
+            </div>
+        </ul>
+    </header>
+    <main>
+    <h1>Event Registration</h1>
+    <p>Personal INFO</p>
+    <form action="register_event.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="event">Will you attend?</label>
+        <select id="event" name="event" required>
+            <option value="Professional Development">Yes</option>
+            <option value="Campus Events">No</option>
+            <option value="Campus Events">Maybe</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="image-logo">
+                    <img src="img/logo.PNG" alt="Logo">
+                </div>
+                <div class="contact-info">
+                    <img src="img/phone.png" alt="Phone Icon">
+                    <span>Contact: +250000000</span>
+                </div>
+                <div class="email-info">
+                    <img src="img/icons8-mail-100.png" alt="Email Icon">
+                    <span>Email: alumni@aluedu.com</span>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-social">
+                    <h2>Get To Us</h2>
+                    <div class="social-item">
+                        <a class="social-icons" href="" target="_blank">
+                            <img src="img/icons8-facebook-100.png" alt="Facebook">
+                            <span>Facebook</span>
+                        </a>
+                        
+                    </div>
+                    <div class="social-item">
+                        <a class="social-icons" href="" target="_blank">
+                            <img src="img/icons8-twitter-100.png" alt="Twitter">
+                            <span>Twitter</span>
+                        </a>
+                        
+                    </div>
+                    <div class="social-item">
+                        <a class="social-icons" href="" target="_blank">
+                            <img src="img/icons8-instagram-100.png" alt="Instagram">
+                            <span>Instagram</span>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-about">
+                    <h2>About Us</h2>
+                    <p class="usw">Our mission is to provide a space for alumni to network,<br> find professional development opportunities, and relive the campus Explore upcoming events, engage with fellow alumni, and stay connected with your alma mater.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&#169; 2023 AlumniConnect</p>
+        </div>
+    </footer>
+</body>
+</html>
