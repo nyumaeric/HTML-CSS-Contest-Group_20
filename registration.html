@@ -24,22 +24,22 @@
     <main>
     <h1>Event Registration</h1>
     <p>Personal INFO</p>
-    <form action="register_event.php" method="post">
+    <form action="register_event.php" method="post" id="myForm">
         <label for="name">Full Name:</label>
         <input type="text" id="name" name="name" required>
-        
+    
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-
+    
         <label for="event">Will you attend?</label>
         <select id="event" name="event" required>
-            <option value="Professional Development">Yes</option>
-            <option value="Campus Events">No</option>
-            <option value="Campus Events">Maybe</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Maybe">Maybe</option>
         </select>
-
+    
         <button type="submit">Submit</button>
-    </form>
+      </form>
     </main>
     <footer>
         <div class="footer-container">
@@ -93,5 +93,16 @@
             <p>&#169; 2023 AlumniConnect</p>
         </div>
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function (event) {
+          event.preventDefault(); // Prevents the default form submission behavior
+    
+          // Display an alert when the form is submitted
+          alert('Form submitted!');
+    
+          // You can add additional logic here to handle the form data or perform other actions
+    
+        });
+      </script>
 </body>
 </html>

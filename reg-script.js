@@ -28,7 +28,6 @@ window.onscroll = function() {
   }
 
 
-  
 const apiKey = '2128e8d5509c93e885205d1f1f7bbacd';
 const city = 'Kigali';
 

@@ -9,7 +9,7 @@
           navbar.style.backgroundColor = '#333';
           navbar.style.color = '#fff';
           navbar.style.backgroundColor = '#002e6d';
-          navbar.style.marginLeft = "0px";
+          navbar.style.marginLeft = "28px";
           navbar.style.height = "140px";
           navbar.style.
           changeFontColor('white');
@@ -67,12 +67,12 @@
       const header = document.getElementById('weather-info');
       const scrollPosition = window.scrollY;
 
-      // Adjust this value based on when you want the color change to occur
+     
       const scrollThreshold = 100;
 
       if (scrollPosition > scrollThreshold) {
         header.style.color = '#fff'; 
       } else {
-        header.style.color = '#002e6d'; // Initial text color
+        header.style.color = '#002e6d';
       }
     });
